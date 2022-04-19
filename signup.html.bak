@@ -1,0 +1,74 @@
+<html>
+<head>
+<style>
+*{
+	margin:0px;
+	padding:0px;
+}
+
+	.main{
+		width:100%;
+		height:60%;
+		background:grey;
+		position:relaive;
+		
+	}
+	
+	#reg{
+		width:400px;
+		height:300px;
+		background:red;
+		position:absolute;
+		top:200px;
+		left:10%;
+		border-radius:10%;
+		
+	}
+	.reg1{
+		align:center;
+		text-align:center;
+		padding:40px;
+		
+	}
+	
+	span{
+		background:orange;
+		
+		effect:blur;
+	}
+	
+	footer{
+		width:100%;
+		height:40%;
+		background:black;
+	}
+	
+</style>
+</head>
+<body>
+<div class="col-sm-6 col-md-6 col-lg-6 col-xl-6	col-xxl-6" >
+				<img src="girlsignup.jpg" width="100%" height="100%" background-position="cover">
+			
+	<div class="main">
+		<div class="col-sm-12 col-md-12 col-lg-12 col-xl-12	col-xxl-12"   id="reg">
+		<form>
+			<table class="reg1">
+			<tr><td colspan="2">&nbsp</td></tr>
+			<tr><td><span>Enter your email :</span></td><td>
+				<input type="email" name="email"  placeholder="enter your email id"></td></tr><tr><td>&nbsp</td></tr>
+				<tr><td><span>Enter your Password :</span></td><td><input type="password" name="pass"  ></td></tr><tr><td>&nbsp</td></tr>
+				<tr><td><span>Conferm password :</span></td><td><input type="password" name="cpass" ></td></tr><tr><td>&nbsp</td></tr>
+				<tr><td colspan="2"><input type="button" value="Log-In"><a href="#"></td></tr><tr><td>&nbsp</td></tr>
+				<tr><td colspan="2"><p><span>Don't have account..?</span></p></td></tr>
+				<tr><td colspan="2"><p><input type="button"  value="Create new account" ></p></td></tr>
+				
+			</table>
+		</form>
+		</div>
+	</div>
+</div>
+<footer>
+	<span>MONISH &copy All rights reserve</span>
+</footer>
+</body>
+</html>
