@@ -5,11 +5,6 @@
 	margin:0px;
 	padding:0px;
 }
-
-body{
-	overflow-X:hidden;
-}
-
 	#b{
 		font-size:50px;
 		color:white;
