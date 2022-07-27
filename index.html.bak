@@ -5,6 +5,11 @@
 	margin:0px;
 	padding:0px;
 }
+
+body{
+	overflow-X:hidden;
+}
+
 	#b{
 		font-size:50px;
 		color:white;
@@ -353,8 +358,8 @@ border-top:4px solid #f90ca7;
 background:black;
 }
 </style>
-</head>
-<body>
+
+
 	<link rel="stylesheet" href="bootstrap.css">
 	<script src="bootstrap.js"></script>
 	<script src="jquery.js"></script>
@@ -368,6 +373,7 @@ background:black;
 
 	
 </head>
+<body>
 <!--navigation-->
 	  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top" id="qq">
   <a class="navbar-brand" href="#"> <span id="h"><b>Monish</b></span><span id="ok"><b>Web</b></span> </a>
